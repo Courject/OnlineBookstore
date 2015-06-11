@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>欢迎光临网上购书平台</title>
+    <link rel="stylesheet" href="lib/css/common.css">
+    <link rel="stylesheet" href="login/css/login.css">
+    <script src="lib/js/jquery.js"></script>
+    <script src="login/js/login_check.js"></script>
+</head>
+<body>
+    <header>
+        <img src="lib/image/logo.png">
+    </header>
+    <div id="wrap_content">
+        <div id="poster">
+            <img src="login/image/library.png">
+        </div>
+        <div id="login_box">
+            <p id="login_title">登录<p>
+            <div id="form_login">
+                <form name="login_form" method="post" id="login_form">
+                    <table>
+                        <tr>
+                            <label id="label_name" for="name"></label>
+                            <input class="input_text" id="name" name="name"  placeholder="输入你的用户名" type="text" />
+                        </tr>
+                        <tr>
+                            <label id="label_password" for="password"></label>
+                            <input class="input_text" id="password" name="password" placeholder="输入密码" type="password" />
+                        </tr>
+                        <tr>
+                            <div id="login_safe">
+
+                            </div>
+                        </tr>
+                        <tr>
+                            <p id="button_submit" onclick="check()">登 录</p>
+                        </tr>
+                        <tr align="right">
+                            <p id="register_redirect">没有帐号？新成员？
+                                <span id="register_link" onclick="document.location.href='./register/register.html'">点我注册</span>
+                            </p>
+                        </tr>
+                    </table>
+                    <p id="login_label">Designed by Hugh,idea comes from TaoBao.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>网上购书平台开发小组：洪鑫、邓旺华、徐平平、李志伟、吕成</h2>
+    </footer>
+</body>
+</html>

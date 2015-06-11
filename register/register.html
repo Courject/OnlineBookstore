@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../lib/css/common.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="../lib/js/jquery.js"></script>
+    <script src="js/register.js"></script>
+</head>
+<body>
+<header>
+    <img src="../lib/image/logo.png">
+</header>
+<div id="wrap_content">
+    <div id="poster">
+        <img src="../login/image/library.png">
+    </div>
+    <div id="register_box">
+        <p id="register_title">注册</p>
+        <div id="form_register">
+            <form name="register_form" method="post" id="register_form">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label id="label_name" for="name">用户名</label>
+                            <td><input class="input_text" id="name" name="name"  placeholder="输入你的用户名" type="text" />
+                        </tr>
+                        <tr>
+                            <td><label id="label_password" for="password">密码</label>
+                            <td><input class="input_text" id="password" name="password" placeholder="输入密码" type="password" />
+                        </tr>
+                        <tr>
+                            <td><label id="label_ensure_password" for="ensure_password">确认密码</label>
+                            <td><input class="input_text" id="ensure_password" name="ensure_password" placeholder="再次输入密码" type="password" />
+                        </tr>
+                        <tr>
+                            <td><label id="label_gender" for="gender">性别</label>
+                            <td><input class="input_text" id="gender" name="gender" placeholder="输入邮箱地址" type="text" />
+                        </tr>
+                        <tr>
+                            <td><label id="label_age" for="age">年龄</label>
+                            <td><select id="age" name="age"></select>
+                        </tr>
+                        <tr>
+                            <td><label id="label_email" for="email">邮箱</label>
+                            <td><input class="input_text" id="email" name="email" placeholder="输入邮箱地址" type="text" />
+                        </tr>
+                        <tr>
+                            <td><label id="label_tel" for="tel">手机</label>
+                            <td><input class="input_text" id="tel" name="tel" placeholder="输入手机号" type="text" />
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p id="button_submit">注 册</p>
+                        </tr>
+                        <tr align="right">
+                            <td colspan="2"><p id="login_redirect">已有账号？
+                                <span id="login_link" onclick="document.location.href='../index.html'">点我登录</span>
+                            </p>
+                        </tr>
+                    </tbody>
+                </table>
+                <p id="login_label">Designed by Hugh,idea comes from TaoBao.</p>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <h2>Designed by silverHugh</h2>
+</footer>
+</body>
+</html>

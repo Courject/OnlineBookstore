@@ -1,0 +1,132 @@
+#wrap_content{
+    height: 600px;
+    width: 1100px;
+    margin: auto;
+}
+#poster,#register_box{
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin: 0px 25px;
+}
+
+@keyframes slide_in{
+    0%{opacity: 0}
+    50%{opacity: 0}
+    100%{opacity: 1}
+}
+#poster img{
+    width: 400px;
+    margin: 50px 50px;
+    animation: 3s slide_in;
+}
+
+#register_box{
+    margin: 20px 0px 0px 150px;
+    width:320px;
+    height:450px;
+    background-color:#fff;
+    border:1px solid #aaa;
+    border-top:3px solid #0097c2;
+    box-shadow:0px 0px 5px #ccc;
+}
+#register_title{
+    font:15px 黑体;
+    width:270px;
+    margin:auto;
+    margin-top:30px;
+}
+#form_register{
+    width:270px;
+    margin:auto;
+    text-align:center;
+    margin-top:20px;
+}
+#form_register form{
+    height:260px;
+}
+
+table label{
+    display: block;
+    float: left;
+}
+table label{
+    width: 60px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.input_text{
+    width:170px;
+    height:23px;
+    margin-top: 10px;
+    padding-left:10px;
+}
+#age{
+    width: 185px;
+    height:23px;
+    margin-top: 10px;
+    padding-left:10px;
+}
+#register_safe{
+    font-size:12px;
+    color:#aaa;
+    height:20px;
+    line-height:50px;
+    width:250px;
+    margin-top:20px;
+}
+#save_password{
+    position:relative;
+    top:2px;
+}
+#remember_password{
+    float:left;
+}
+#ask_password{
+    float:right;
+}
+#button_submit{
+    float: right;
+    width:225px;
+    height:30px;
+    line-height:30px;
+    border-radius:3px;
+    background-color:#0097c2;
+    color:#fff;
+    box-shadow:0px;
+    font-size:15px;
+    font-weight:500;
+    font-family:黑体;
+    cursor:pointer;
+    transition:background-color 1s;
+    -webkit-transition:background-color 1s;
+    margin:auto;
+    margin-top:20px;
+}
+#button_submit:hover{
+    background-color: #00ceff;
+    transition:background-color 0.5s;
+    -webkit-transition:background-color 0.5s;
+}
+#login_redirect{
+    height:20px;
+    line-height:20px;
+    margin-top:20px;
+    text-align:right;
+    font-size:12px;
+    color:#777;
+}
+#login_link{
+    color:blue;
+    cursor:pointer;
+}
+#login_link:hover{
+    text-decoration:underline;
+}
+#login_label{
+    position:relative;
+    left:30px;
+    color:#eeeeee;
+    text-align:right;
+    font:10px  Segoe Script;
+}
